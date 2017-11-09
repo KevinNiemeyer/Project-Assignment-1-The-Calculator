@@ -8,9 +8,17 @@ body {
   background-color: #AAAAAA;
 }
 
+.container {
+  width: 400px;
+  height: 500px;
+  border: solid black 1px;
+  background-color: black;
+}
+
 div img {
   width: 100%;
 }
+
 .top-bar {
 	margin: 0;
 	padding: 0;
@@ -18,25 +26,18 @@ div img {
 	float: left;
 }
 
-.container {
-  width: 100px;
-  border: solid black 1px;
-  background-color: black;
-}
-
 input {
   width: 100%;
-  font-size: 7em;
+  font-size: 4em;
+  height: 2em;
   font-family: "Helvetica Neue";
-  font-weight: 300;
+  font-weight: 100;
   border: none;
   outline: none;
   color: white;
   background-color: black;
-  text-align: right;
-  
+  text-align: right; 
 }
-
 
 .clear {
 	clear: both;
