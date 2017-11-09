@@ -9,12 +9,12 @@ body {
 }
 
 div img {
-  width: 100%;
+  width: 600px;
 }
 .top-bar {
 	margin: 0;
 	padding: 0;
-  width: 100%;
+	width: 100%;
 	float: left;
 }
 
