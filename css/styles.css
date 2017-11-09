@@ -55,6 +55,15 @@ input {
   background-color: #DBCEB6;
   float: left;
 }
+
+input:hover {
+  border: solid white 1px;
+}
+
+.buttons:hover {
+  border: solid white 1px;
+}
+
 .clear {
 	clear: both;
 }
