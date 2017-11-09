@@ -87,6 +87,8 @@ input:hover {
 
 .buttons:active { 
   background-color: green;
+  border-top: solid #8B7D6B 3px;
+  border-right: solid #8B7D6B 3px;
 }
 
 .buttons-top:hover {
@@ -95,6 +97,8 @@ input:hover {
 
 .buttons-top:active { 
   background-color: green;
+    border-top: solid #8B7D6B 3px;
+  border-right: solid #8B7D6B 3px;
 }
 
 .buttons-right:hover {
@@ -103,6 +107,8 @@ input:hover {
 
 .buttons-right:active { 
   background-color: green;
+    border-top: solid #8B7D6B 3px;
+  border-right: solid #8B7D6B 3px;
 }
 
 .clear {
