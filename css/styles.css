@@ -43,7 +43,7 @@ input {
   width: 100%;
   height: 12.75em;
   font-size: 35px;
-
+  float: left;
 }
 
 .buttons {
