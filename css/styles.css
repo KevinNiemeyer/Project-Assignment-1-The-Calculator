@@ -1,51 +1,110 @@
-<html lang="en">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+}
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Project Assignment 1 - The Calculator</title>
-</head>
+body {
+  background-color: #AAAAAA;
+}
 
-<body>
-  <div class="container">
+.container {
+  width: 350px;
+  height: 600px;
+  border: solid black 1px;
+  background-color: black;
+}
 
-    <div class="top-bar">
-      <img src="https://i.imgur.com/ZwxUyDf.jpg" />
-      <div class="clear"></div>
-    </div>
-    
-    <div class="display">
-      <form action="">
-        <input type="text" name="input" placeholder="0"><br>
-      </form>
-      <div class="clear"></div>
-    </div>
+div img {
+  width: 100%;
+}
 
-      <div class="button-group">
-        <div class="buttons-top">C</div>
-        <div class="buttons-top">+/-</div>
-        <div class="buttons-top">%</div>
-        <div class="buttons-right">÷</div>
-        <div class="buttons">7</div>
-        <div class="buttons">8</div>
-        <div class="buttons">9</div>
-        <div class="buttons-right">×</div>
-        <div class="buttons">4</div>
-        <div class="buttons">5</div>
-        <div class="buttons">6</div>
-        <div class="buttons-right">—</div>
-        <div class="buttons">1</div>
-        <div class="buttons">2</div>
-        <div class="buttons">3</div>
-        <div class="buttons-right">+</div>
-        <div class="buttons">0</div>
-        <div class="buttons">Del</div>
-        <div class="buttons">.</div>
-        <div class="buttons-right">=</div>
+.top-bar {
+  width: 100%;
+	float: left;
+}
 
-      </div>
+input {
+  width: 100%;
+  font-size: 4em;
+  height: 2em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: black;
+  text-align: right;
+}
 
-    </div>
-</body>
+.button-group {
+  width: 100%;
+  height: 12.80em;
+  font-size: 35px;
+  float: left;
+}
 
-</html>
+.buttons {
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  padding-top: 18px;
+  border: solid 1px #8B7D6B;
+  background-color: #DBCEB6;
+  float: left;
+}
+
+.buttons-top{ 
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  padding-top: 18px;
+  border: solid 1px #8B7D6B;
+  background-color: #D0BFA7;
+  float: left;
+}
+
+.buttons-right{ 
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  padding-top: 18px;
+  border: solid 1px #8B7D6B;
+  background-color: #F98418;
+  color: #FDE581;
+  float: left;
+}
+
+
+input:hover {
+  border: solid white 1px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  border: solid white 1px;
+}
+
+.buttons:active { 
+  background-color: green;
+}
+
+.buttons-top:hover {
+  border: solid white 1px;
+}
+
+.buttons-top:active { 
+  background-color: green;
+}
+
+.buttons-right:hover {
+  border: solid white 1px;
+}
+
+.buttons-right:active { 
+  background-color: green;
+}
+
+.clear {
+	clear: both;
+}
