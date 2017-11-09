@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Neue";
+  font-weight: 100;
 }
 
 body {
@@ -9,8 +11,8 @@ body {
 }
 
 .container {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 600px;
   border: solid black 1px;
   background-color: black;
 }
@@ -30,8 +32,6 @@ input {
   width: 100%;
   font-size: 4em;
   height: 2em;
-  font-family: "Helvetica Neue";
-  font-weight: 100;
   border: none;
   outline: none;
   color: white;
@@ -39,6 +39,22 @@ input {
   text-align: right; 
 }
 
+.button-group {
+  width: 100%;
+  height: 12.75em;
+  font-size: 35px;
+  float: left;
+}
+
+.buttons {
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  padding-top: 18px;
+  border: solid 1px #8B7D6B;
+  background-color: #DBCEB6;
+  float: left;
+}
 .clear {
 	clear: both;
 }
