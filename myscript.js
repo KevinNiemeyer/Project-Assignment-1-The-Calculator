@@ -1,6 +1,3 @@
-//myscript.js
-//javascript for calculator app
-
 var calcArray = new Array;
 
 //append function
