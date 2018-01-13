@@ -80,15 +80,13 @@ input {
   float: left;
 }
 
-input:hover {
-  border: solid white 1px;
-  cursor: pointer;
+.buttons:hover {
+  background-color: #e8ffe8;
 }
 
-.buttons:hover, .buttons-right:hover {
-  border: #cccccc 1px;
+.buttons-right:hover {
+  background-color: #5b554e;
 }
-
 .buttons:active, .buttons-right:active { 
   border-top: solid #8B7D6B 3px;
   border-right: solid #8B7D6B 3px;
