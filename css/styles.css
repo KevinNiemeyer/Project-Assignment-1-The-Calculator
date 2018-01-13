@@ -87,6 +87,7 @@ input {
 .buttons-right:hover {
   background-color: #5b554e;
 }
+
 .buttons:active, .buttons-right:active { 
   border-top: solid #8B7D6B 3px;
   border-right: solid #8B7D6B 3px;
