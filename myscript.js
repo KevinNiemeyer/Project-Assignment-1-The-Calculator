@@ -1,3 +1,5 @@
+//myscript.js
+//javascript for calculator app
 
 var calcArray = new Array;
 
@@ -128,16 +130,24 @@ function delLast(id) {
   } 
   
   if(calcArray[calcArray.length-1] === ")") {
-    //number is negative; add to it inside the parenthesis
+    //number is negative, delete closing parenthesis and last number from 
+    //the array then add closing parenthesis back to the array
+    console.log("in delete negative");
     calcArray.pop();
     calcArray.pop();
     calcArray.push(")");
-    //number is negative, delete closing parenthesis and last number from 
-    //the array then add closing parenthesis back to the array
+    //check for empty parenthesis:
+    console.log(calcArray.join("") === "(-)")
+    if(calcArray.join("") === "(-)") {
+      calcArray.length = 0;   
+    }
+    
   }
+       
   //no numbers left, so delete parenthesis and negative sign
   if(calcArray[calcArray.length-2] === "(-") {
     calcArray.length = calcArray.length-2;
+    console.log("")
   }
   
   updateDisplay();
@@ -178,7 +188,6 @@ function evalCalc() {
     
   //store answer to calcArray
   calcArray = answer.split("");
-  
   
   updateDisplay();
 }
