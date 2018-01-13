@@ -7,15 +7,18 @@
 }
 
 body {
-  background-color: #AAAAAA;
+  background-color: #555555;
 }
 
 .container {
-  width: 500px;
-  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
   border: solid black 1px;
   background-color: black;
 }
+
 
 div img {
   width: 100%;
