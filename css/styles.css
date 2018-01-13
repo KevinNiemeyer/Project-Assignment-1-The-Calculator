@@ -10,6 +10,8 @@ body {
   background-color: #555555;
 }
 
+
+
 .container {
   margin: auto;
   margin-top: 20px;
@@ -18,7 +20,6 @@ body {
   border: solid black 1px;
   background-color: black;
 }
-
 
 div img {
   width: 100%;
@@ -78,40 +79,23 @@ input {
   float: left;
 }
 
-
 input:hover {
   border: solid white 1px;
   cursor: pointer;
 }
 
-.buttons:hover {
-  border: solid white 1px;
+.buttons:hover, .buttons-right:hover {
+  border: #cccccc 1px;
 }
 
-.buttons:active { 
-  background-color: green;
+
+.buttons:active, .buttons-right:active { 
   border-top: solid #8B7D6B 3px;
   border-right: solid #8B7D6B 3px;
 }
 
-.buttons-top:hover {
-  border: solid white 1px;
-}
-
-.buttons-top:active { 
-  background-color: green;
-    border-top: solid #8B7D6B 3px;
-  border-right: solid #8B7D6B 3px;
-}
-
-.buttons-right:hover {
-  border: solid white 1px;
-}
-
-.buttons-right:active { 
-  background-color: green;
-    border-top: solid #8B7D6B 3px;
-  border-right: solid #8B7D6B 3px;
+.disabled {
+  pointer-events: none;
 }
 
 .clear {
