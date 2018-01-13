@@ -10,13 +10,13 @@ body {
   background-color: #555555;
 }
 
-
-
 .container {
   margin: auto;
   margin-top: 20px;
   width: 50%;
   height: 50%;
+
+  background-color: black;
 }
 
 div img {
@@ -30,13 +30,16 @@ div img {
 
 input {
   width: 100%;
-  font-size: 4em;
-  height: 2em;
+  font-size: 3em;
+  height: 1.5em;
   border: none;
   outline: none;
   color: white;
   background-color: black;
   text-align: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 12px;
 }
 
 .button-group {
@@ -85,7 +88,6 @@ input:hover {
 .buttons:hover, .buttons-right:hover {
   border: #cccccc 1px;
 }
-
 
 .buttons:active, .buttons-right:active { 
   border-top: solid #8B7D6B 3px;
